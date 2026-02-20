@@ -1,4 +1,4 @@
-Given the new epic "Remove Product from Shopping Cart", let's generate the complete backend folder structure.
+Given the new epic "Modify Quantity of Products in Shopping Cart", let's generate the complete backend folder structure.
 
 Here is the complete JSON structure including the new epic:
 
@@ -50,6 +50,10 @@ Here is the complete JSON structure including the new epic:
     {
       "epic_id": "EPIC-011",
       "epic_name": "Remove Product from Shopping Cart"
+    },
+    {
+      "epic_id": "EPIC-012",
+      "epic_name": "Modify Quantity of Products in Shopping Cart"
     }
   ],
   "tech_stack": "Django",
@@ -187,6 +191,18 @@ Here is the structured folder layout in JSON format:
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-011_remove_product_from_shopping_cart/views/README.md": {
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
+    "branch": "main",
+    "content": ""
+  },
+  "unique_session_id-folder-structure/backend/EPIC-012_modify_quantity_of_products_in_shopping_cart/models/README.md": {
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
+    "branch": "main",
+    "content": ""
+  },
+  "unique_session_id-folder-structure/backend/EPIC-012_modify_quantity_of_products_in_shopping_cart/views/README.md": {
     "repo_owner": "your_repo_owner",
     "repo_name": "your_repo_name",
     "branch": "main",
