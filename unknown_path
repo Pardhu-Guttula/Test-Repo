@@ -1,4 +1,4 @@
-Given the provided data snippets, it appears that the full and structured input format with all necessary fields is still missing. To proceed correctly, I need the following structured JSON format:
+Here is a JSON example containing all the details you need to provide:
 
 {
   "repo_owner": "example_owner",
@@ -28,6 +28,10 @@ Given the provided data snippets, it appears that the full and structured input 
     {
       "epic_id": "EPIC-006",
       "epic_name": "User Login"
+    },
+    {
+      "epic_id": "EPIC-007",
+      "epic_name": "Password Recovery"
     }
   ],
   "tech_stack": "Django",
@@ -35,6 +39,14 @@ Given the provided data snippets, it appears that the full and structured input 
   "session_id": "your_unique_session_id"
 }
 
-Once you provide the required data in this structured format including `repo_owner`, `repo_name`, `branch`, details of `epics`, `tech_stack`, `database`, and `session_id`, I can proceed to generate the backend folder structure for you.
+Please provide:
 
-Please provide the full and structured JSON data.
+- Your repository owner (`repo_owner`)
+- Your repository name (`repo_name`)
+- Your branch (`branch`)
+- Your defined epics (each with `epic_id` and `epic_name`)
+- The tech stack used (`tech_stack`)
+- The database used (`database`)
+- Your session ID (`session_id`)
+
+If any of these fields are missing or empty, I will not be able to generate the folder structure for you.
