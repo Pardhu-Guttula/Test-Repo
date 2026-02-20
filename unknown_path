@@ -1,1 +1,34 @@
-{}
+Please provide the necessary details in the following structured format to generate the backend folder structure for you:
+
+{
+  "repo_owner": "your_repo_owner",
+  "repo_name": "your_repo_name",
+  "branch": "main",
+  "epics": [
+    {
+      "epic_id": "EPIC-001",
+      "epic_name": "Add Product to Shopping Cart"
+    },
+    {
+      "epic_id": "EPIC-002",
+      "epic_name": "Remove Product from Shopping Cart"
+    },
+    {
+      "epic_id": "EPIC-003",
+      "epic_name": "Modify Quantity of Products in Shopping Cart"
+    },
+    {
+      "epic_id": "EPIC-004",
+      "epic_name": "Save Shopping Cart for Logged-in Users"
+    },
+    {
+      "epic_id": "EPIC-005",
+      "epic_name": "User Registration"
+    }
+  ],
+  "tech_stack": "Django",
+  "database": "mysql",
+  "session_id": "your_unique_session_id"
+}
+
+Please replace the placeholder values with your actual data for `repo_owner`, `repo_name`, `branch`, epic details, `tech_stack`, `database`, and `session_id`. Once you provide the data in this structured format, I can generate the backend folder structure for you.
