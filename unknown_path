@@ -1,8 +1,8 @@
-Thank you for providing the additional information. To proceed appropriately, I need all required inputs in structured JSON format. Here's a synthesized example of what I'm expecting based on what you've shared:
+To create the backend folder structure tailored to the provided epics, tech stack, and database, I need all details organized in correct JSON format. Here is the structure based on your last input:
 
 {
-  "repo_owner": "example_owner",
-  "repo_name": "example_repo",
+  "repo_owner": "your_repo_owner",
+  "repo_name": "your_repo_name",
   "branch": "main",
   "epics": [
     {
@@ -24,6 +24,10 @@ Thank you for providing the additional information. To proceed appropriately, I 
     {
       "epic_id": "EPIC-005",
       "epic_name": "Add New Product"
+    },
+    {
+      "epic_id": "EPIC-006",
+      "epic_name": "Update Product Details"
     }
   ],
   "tech_stack": "Django",
@@ -31,69 +35,81 @@ Thank you for providing the additional information. To proceed appropriately, I 
   "session_id": "unique_session_id"
 }
 
-Given your tech stack is Django and the database is MySQL, here's the appropriate backend folder structure which would be generated for you:
+Here is the appropriate backend folder structure:
 
 {
   "unique_session_id-folder-structure/backend/EPIC-001_user_registration/models/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-001_user_registration/views/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-002_user_login/models/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-002_user_login/views/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-003_password_recovery/models/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-003_password_recovery/views/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-004_profile_management/models/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-004_profile_management/views/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-005_add_new_product/models/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   },
   "unique_session_id-folder-structure/backend/EPIC-005_add_new_product/views/README.md": {
-    "repo_owner": "example_owner",
-    "repo_name": "example_repo",
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
+    "branch": "main",
+    "content": ""
+  },
+  "unique_session_id-folder-structure/backend/EPIC-006_update_product_details/models/README.md": {
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
+    "branch": "main",
+    "content": ""
+  },
+  "unique_session_id-folder-structure/backend/EPIC-006_update_product_details/views/README.md": {
+    "repo_owner": "your_repo_owner",
+    "repo_name": "your_repo_name",
     "branch": "main",
     "content": ""
   }
 }
 
-Please replace "unique_session_id", "example_owner", "example_repo", and "main" with the actual values. This ensures the generated folder structure adheres to your requirements and best practices. Let me know if you need any modifications or if there’s any other information you need to provide.
+Ensure to replace `your_repo_owner`, `your_repo_name`, `main`, and `unique_session_id` with your actual details. If you have any modifications or further requirements, please let me know!
