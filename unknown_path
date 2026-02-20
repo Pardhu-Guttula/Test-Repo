@@ -1,8 +1,8 @@
-Please provide the necessary details in the following structured format to generate the backend folder structure for you:
+Given the provided data snippets, it appears that the full and structured input format with all necessary fields is still missing. To proceed correctly, I need the following structured JSON format:
 
 {
-  "repo_owner": "your_repo_owner",
-  "repo_name": "your_repo_name",
+  "repo_owner": "example_owner",
+  "repo_name": "example_repo",
   "branch": "main",
   "epics": [
     {
@@ -24,6 +24,10 @@ Please provide the necessary details in the following structured format to gener
     {
       "epic_id": "EPIC-005",
       "epic_name": "User Registration"
+    },
+    {
+      "epic_id": "EPIC-006",
+      "epic_name": "User Login"
     }
   ],
   "tech_stack": "Django",
@@ -31,4 +35,6 @@ Please provide the necessary details in the following structured format to gener
   "session_id": "your_unique_session_id"
 }
 
-Please replace the placeholder values with your actual data for `repo_owner`, `repo_name`, `branch`, epic details, `tech_stack`, `database`, and `session_id`. Once you provide the data in this structured format, I can generate the backend folder structure for you.
+Once you provide the required data in this structured format including `repo_owner`, `repo_name`, `branch`, details of `epics`, `tech_stack`, `database`, and `session_id`, I can proceed to generate the backend folder structure for you.
+
+Please provide the full and structured JSON data.
